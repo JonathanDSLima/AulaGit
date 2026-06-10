@@ -1,0 +1,43 @@
+Primeiro passo:
+
+Criou uma conta no github
+
+Segundo passo:
+
+Instalar o git caso não venha instalado, como verificar (git version)
+
+Terceiro passo:
+
+Criar um repositório dentro do github
+
+Quarto passo:
+
+Escolher uma pasta para colocar o projeto
+
+Quinto passo:
+
+Copiar url https disponibilizada no github (https://github.com/JonathanDSLima/AulaGit.git)
+
+Sexto passo:
+
+Abrir o terminal dentro da pasta
+
+Sétimo passo:
+
+Rodar o comando git clone nome_do_projeto (https://github.com/JonathanDSLima/AulaGit.git)
+
+Oitavo passo:
+
+Abrir a pasta direto no vscode
+
+Nono passo:
+
+Começar a colocar os arquivos
+
+Décimo passo:
+
+Rodar o comando git status que verifica os arquivos novos, removidos e alterados
+
+Décimo primeiro passo:
+
+Rodar comando git add .
