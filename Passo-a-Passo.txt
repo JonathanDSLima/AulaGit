@@ -40,4 +40,13 @@ Rodar o comando git status que verifica os arquivos novos, removidos e alterados
 
 Décimo primeiro passo:
 
-Rodar comando git add .
+Rodar comando git add . para adicionar tudo que foi incluso, removido e alterado na subida para o git
+Caso o comando git status for rodado novamente, os arquivos antes vermelhos, ficaram verdes.
+
+Décimo segundo passo:
+
+Rodar o comando git commit -m "Subindo arquivo txt com passo a passo do uso do git", o qual, declara o que foi feito nas alterações
+adicionadas anteriormente no comando git add .
+
+Décimo terceiro passo:
+Rodar o comando git push origin main para subir os arquivos que foram commitados anteriormente
