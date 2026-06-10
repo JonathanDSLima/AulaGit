@@ -49,10 +49,14 @@ Rodar o comando git commit -m "Subindo arquivo txt com passo a passo do uso do g
 adicionadas anteriormente no comando git add .
 
 Décimo terceiro passo:
-Rodar o comando git push origin main para subir os arquivos que foram commitados anteriormente
+Rodar o comando git push origin main para subir os arquivos que foram commitados anteriormente (git push origin nome da branch que existe no github)
 
 Passos avançados de gitflow:
 
 Primeiro passo:
 
-Rodar o comando git checkout -b nome-branch para criar uma branch nova para desenvolvimento
+Rodar o comando git checkout -b nome-branch para criar uma branch nova para desenvolvimento (ex: git checkout -b login)
+
+Segundo passo: 
+
+Rodar todos os comandos para subir uma alteração git status, git add ., git commit -m "Alteracoes feitas", git push origin login (ao inves de login será o nome da nova branch)
