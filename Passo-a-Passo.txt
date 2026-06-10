@@ -50,3 +50,9 @@ adicionadas anteriormente no comando git add .
 
 Décimo terceiro passo:
 Rodar o comando git push origin main para subir os arquivos que foram commitados anteriormente
+
+Passos avançados de gitflow:
+
+Primeiro passo:
+
+Rodar o comando git checkout -b nome-branch para criar uma branch nova para desenvolvimento
