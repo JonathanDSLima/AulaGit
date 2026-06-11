@@ -60,3 +60,5 @@ Rodar o comando git checkout -b nome-branch para criar uma branch nova para dese
 Segundo passo: 
 
 Rodar todos os comandos para subir uma alteração git status, git add ., git commit -m "Alteracoes feitas", git push origin login (ao inves de login será o nome da nova branch)
+
+Terceiro passo:
