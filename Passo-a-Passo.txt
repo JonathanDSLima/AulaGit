@@ -55,10 +55,27 @@ Passos avançados de gitflow:
 
 Primeiro passo:
 
-Rodar o comando git checkout -b nome-branch para criar uma branch nova para desenvolvimento (ex: git checkout -b login)
+Rodar o comando git checkout -b nome-branch para criar uma branch nova para desenvolvimento (ex: git checkout -b login) e ir para ela
 
 Segundo passo: 
 
 Rodar todos os comandos para subir uma alteração git status, git add ., git commit -m "Alteracoes feitas", git push origin login (ao inves de login será o nome da nova branch)
 
 Terceiro passo:
+Rodar o comando git checkout main que muda a branch que está sendo mexida, é semelhante ao de criar uma branch nova, então devemos se atentar
+
+Quarto passo:
+Rodar o comando git pull origin nome-branch que foi criada no Primeiro passo avançado, esse comando irá pegar todas as atualizações da branch login e trazer para main nesse caso
+
+Quinto passo:
+Rodar o comando git push origin main para subir a main com as alterações que vieram do login
+
+Passos extras:
+Primeiro passo extra:
+git config --global user.name "fulano" esse passo define o nome que irá aparecer nos commits do github
+
+Segundo passo extra:
+git config --global user.email "fulano@gmail.com" esse passo define o email que irá aparecer nos commits no github
+
+Terceiro passo extra:
+git revert HEAD ou git reset --hard HEAD~1 esse comando volta as alterações do commit anterior
